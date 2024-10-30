@@ -1,0 +1,169 @@
+.client {
+    background: var(--extra-light);
+}
+.client .client-grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+.client .client-grid .client-card {
+    padding: 0rem;
+    background: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    transition: .5s;
+}
+.client .client-grid .client-card:hover {
+    box-shadow: none;
+}
+.client .client-grid .client-card img {
+    max-width: 80px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+.client .client-grid .client-card p {
+    color: var(--text-dark);
+}
+
+
+
+
+
+
+
+body {
+    background-image: url('gold logo.jpg'); /* Ensure the path to the image is correct */
+    background-size: cover; /* Make sure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    background-color: #000; /* Fallback color if the image doesn't load */
+}
+
+.wrapper {
+    padding: 4em 0;
+    background: rgba(242, 242, 242, 0.288); /* Slightly transparent to show background image */
+}
+
+.inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background: #ffffffb6;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    padding-top: 15rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header styling */
+.align-center {
+    text-align: center;
+}
+
+.align-center p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.align-center h2 {
+    margin-top: 0.5em;
+    color: #333;
+    font-size: 2em;
+}
+
+/* Content styling */
+.content p {
+    color: #2c2b2b;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+/* Footer styling */
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#footer .container1 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#footer .icons li {
+    margin: 0 0.5em;
+}
+
+#footer .icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+#footer .icons a:hover {
+    color: #ff5722;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1em 0;
+    background: #222;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Styling for "Order Now" button */
+.popular-card .button {
+    display: flex;
+    justify-content: center;
+}
+
+.popular-card button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popular-card button:hover {
+    background-color: #e64a19;
+}
+
+
+
+
+.logo {
+    font: bolder;
+    position: absolute; /* Positioning the logo */
+    top: 60px; /* Adjust this value to move it down from the top */
+    left: 50%; /* Centering it horizontally */
+    transform: translateX(-50%); /* Aligning it exactly to the center */
+    background: transparent; /* Ensure the logo has no background */
+    display: inline-block; /* Keep it inline for proper spacing */
+}
+
+.logo img {
+    max-width: 200px; /* Adjust the size of the logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 0rem;
+    border-radius: 150px;
+}
